@@ -11,16 +11,16 @@ classifiers = [
 
 setup(
     name='zim_places',
-    version='1.0.6',
+    version='1.1.1',
     description='A package for wards,districts,cities and provinces in Zimbabwe',
-    long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+    long_description=open('README.rst').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/RONALD55/ZimPlaces-Python-Library',
     author='Ronald Nyasha Kanyepi',
     author_email='kanyepironald@gmail.com',
     license='MIT',
     classifiers=classifiers,
     keywords=['zimbabwe', 'cities in Zimbabwe', 'districts in Zimbabwe', 'wards in Zimbabwe', 'Provinces in Zimbabwe',
-              'Zimbabwe places'],
+              'Zimbabwe zim_places'],
     packages=find_packages(),
     install_requires=['pandas']
 )

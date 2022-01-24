@@ -1,47 +1,79 @@
 Metadata-Version: 1.1
 Name: zim-places
-Version: 1.0.6
+Version: 1.1.1
 Summary: A package for wards,districts,cities and provinces in Zimbabwe
 Home-page: https://github.com/RONALD55/ZimPlaces-Python-Library
 Author: Ronald Nyasha Kanyepi
 Author-email: kanyepironald@gmail.com
 License: MIT
-Description: This is a python package that allows you to search for cities, provinces, and districts in Zimbabwe.Zimbabwe is split into eight provinces and two cities that are designated as provincial capitals.
-        Districts are organized into 59 provinces.Wards are organized into 1,200 districts.Visit the project homepage for further information on how to use the package.
+Description: ============
+        Zim-Places
+        ============
+        .. image:: https://img.shields.io/pypi/v/country_list.svg
+                :target: https://pypi.python.org/pypi/country_l
         
-        To can install the zim-places:
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+                :target: https://github.com/psf/black
         
-            pip install zim-places
+        Features
+        --------
         
-        To use zim-places package:
+        - This is a python package that allows you to search for cities, provinces, and districts in Zimbabwe.Zimbabwe is split into eight provinces and two cities that are designated as provincial capitals.
+          Districts are organized into 59 provinces.Wards are organized into 1,200 districts.Visit the project homepage for further information on how to use the package.
         
-            import zim-places as zm
         
-            #to get cities:
         
-            zm.cities()
+        Installation
+        ------------
         
-            #to get provinces
+        To can install the zim_places open shell or terminal and run::
         
-            zm.provinces()
+            pip install zim_places
         
-            #to get wards
+        Usage
+        -----
         
-            zm.wards()
+        Get all wards:
         
-            #to get districts
+        .. code-block:: python
         
-            zm.districts()
+            from zim_places import wards
+            print(wards.get_wards())
         
+        Get all districts:
+        
+        .. code-block:: python
+        
+            from zim_places import districts
+            print(districts.get_districts())
+        
+        Get all cities:
+        
+        .. code-block:: python
+        
+            from zim_places import cities
+            print(cities.get_cities())
+        
+        Get all provinces:
+        
+        .. code-block:: python
+        
+            from zim_places import provinces
+            print(provinces.get_provinces())
+        
+        License
+        -------
+        
+        The project is licensed under the MIT license.
         
         
         Change Log
         ========================
         
-        1.0.6(24/01/22)
+        1.1.1(24/01/22)
         -------------------------
         - First Release of the Zim Places Library that will assist developers in providing names of places in zimbabwe
-Keywords: zimbabwe,cities in Zimbabwe,districts in Zimbabwe,wards in Zimbabwe,Provinces in Zimbabwe,Zimbabwe places
+Keywords: zimbabwe,cities in Zimbabwe,districts in Zimbabwe,wards in Zimbabwe,Provinces in Zimbabwe,Zimbabwe zim_places
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Education
