@@ -2,10 +2,10 @@
 Zim-Places
 ============
 .. image:: https://img.shields.io/pypi/v/country_list.svg
-        :target: https://pypi.python.org/pypi/country_l
+        :target: https://pypi.org/project/zim-places
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-        :target: https://github.com/psf/black
+        :target: https://github.com/RONALD55/ZimPlaces-Python-Library
 
 Features
 --------

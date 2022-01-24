@@ -1,7 +1,8 @@
 import pandas as pd
+import io, pkgutil
 
 
 def get_districts():
-    df = pd.read_csv("./zim_places/components/districts.csv")
+    data = pkgutil.get_data(__package__, '/components/districts.csv')
+    df = pd.read_csv(io.BytesIO(data))
     return df.to_json(orient='index')
-

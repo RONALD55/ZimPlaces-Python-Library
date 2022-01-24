@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: zim-places
-Version: 1.1.1
+Version: 1.1.9
 Summary: A package for wards,districts,cities and provinces in Zimbabwe
 Home-page: https://github.com/RONALD55/ZimPlaces-Python-Library
 Author: Ronald Nyasha Kanyepi
@@ -10,10 +10,10 @@ Description: ============
         Zim-Places
         ============
         .. image:: https://img.shields.io/pypi/v/country_list.svg
-                :target: https://pypi.python.org/pypi/country_l
+                :target: https://pypi.org/project/zim-places
         
         .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-                :target: https://github.com/psf/black
+                :target: https://github.com/RONALD55/ZimPlaces-Python-Library
         
         Features
         --------
@@ -28,7 +28,7 @@ Description: ============
         
         To can install the zim_places open shell or terminal and run::
         
-            pip install zim_places
+            pip install zim-places
         
         Usage
         -----
@@ -70,7 +70,7 @@ Description: ============
         Change Log
         ========================
         
-        1.1.1(24/01/22)
+        1.1.9(24/01/22)
         -------------------------
         - First Release of the Zim Places Library that will assist developers in providing names of places in zimbabwe
 Keywords: zimbabwe,cities in Zimbabwe,districts in Zimbabwe,wards in Zimbabwe,Provinces in Zimbabwe,Zimbabwe zim_places
