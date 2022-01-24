@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+project/__init__.py
+project/components/cities.csv
+project/components/districts.csv
+project/components/provinces.csv
+project/components/wards.csv
+zim_places.egg-info/PKG-INFO
+zim_places.egg-info/SOURCES.txt
+zim_places.egg-info/dependency_links.txt
+zim_places.egg-info/requires.txt
+zim_places.egg-info/top_level.txt

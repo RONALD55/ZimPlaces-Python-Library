@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: zim-places
+Version: 1.0.6
+Summary: A package for wards,districts,cities and provinces in Zimbabwe
+Home-page: https://github.com/RONALD55/ZimPlaces-Python-Library
+Author: Ronald Nyasha Kanyepi
+Author-email: kanyepironald@gmail.com
+License: MIT
+Description: This is a python package that allows you to search for cities, provinces, and districts in Zimbabwe.Zimbabwe is split into eight provinces and two cities that are designated as provincial capitals.
+        Districts are organized into 59 provinces.Wards are organized into 1,200 districts.Visit the project homepage for further information on how to use the package.
+        
+        To can install the zim-places:
+        
+            pip install zim-places
+        
+        To use zim-places package:
+        
+            import zim-places as zm
+        
+            #to get cities:
+        
+            zm.cities()
+        
+            #to get provinces
+        
+            zm.provinces()
+        
+            #to get wards
+        
+            zm.wards()
+        
+            #to get districts
+        
+            zm.districts()
+        
+        
+        
+        Change Log
+        ========================
+        
+        1.0.6(24/01/22)
+        -------------------------
+        - First Release of the Zim Places Library that will assist developers in providing names of places in zimbabwe
+Keywords: zimbabwe,cities in Zimbabwe,districts in Zimbabwe,wards in Zimbabwe,Provinces in Zimbabwe,Zimbabwe places
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
