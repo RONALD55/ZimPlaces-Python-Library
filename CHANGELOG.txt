@@ -1,6 +1,6 @@
 Change Log
 ========================
 
-1.1.9(24/01/22)
+2.0.0(24/01/22)
 -------------------------
 - First Release of the Zim Places Library that will assist developers in providing names of places in zimbabwe

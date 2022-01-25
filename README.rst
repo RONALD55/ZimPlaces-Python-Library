@@ -53,6 +53,35 @@ Get all provinces:
     from zim_places import provinces
     print(provinces.get_provinces())
 
+.. code-block:: python
+
+    from zim_places import *
+    import json
+
+    # Get the data as json
+    print(get_cities())
+    print(get_wards())
+    print(get_provinces())
+    print(get_districts())
+
+    # Get the data as a list of dictionaries, remember you can customize the list to suit your need
+    data = json.loads(get_wards())
+    list_of_wards = [{i['Ward'] + ' ' + i['Province_OR_District']} for i in data.values()]
+    print(list_of_wards)
+
+    data = json.loads(get_districts())
+    list_of_districts = [{i['District'] + ' ' + i['Province']} for i in data.values()]
+    print(list_of_districts)
+
+    data = json.loads(get_provinces())
+    list_of_provinces = [{i['Province'] + ' ' + i['Capital'] + i['Area(km2)'] + i['Population(2012 census)']} for i in data.values()]
+    print(list_of_provinces)
+
+    data = json.loads(get_cities())
+    list_of_cities = [{i['City'] + ' ' + i['Province']} for i in data.values()]
+    print(list_of_cities)
+
+
 License
 -------
 

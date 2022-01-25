@@ -12,7 +12,7 @@ classifiers = [
 
 setup(
     name='zim_places',
-    version='1.1.9',
+    version='2.0.0',
     description='A package for wards,districts,cities and provinces in Zimbabwe',
     long_description=open('README.rst').read() + '\n\n' + open('CHANGELOG.txt').read(),
     url='https://github.com/RONALD55/ZimPlaces-Python-Library',
